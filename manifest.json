@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "2PaswordsManager",
+  "description": "Simple password tool.",
+  "version": "0.0001",
+  "author": "https://github.com/spaghettimaster",
+  "browser_action": {
+    "default_icon": "src/icons/icon.png",
+    "default_popup": "src/html/popup.html"
+  },
+  "icons": {
+    "48": "src/icons/48.png",
+    "128": "src/icons/128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
